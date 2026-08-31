@@ -221,6 +221,10 @@ bool CTaskBarSettingsDlg::InitializeControls()
         { CtrlTextInfo::C0, IDC_USAGE_GRAPH_FOLLOW_SYSTEM_CHECK, CtrlTextInfo::W16 }
         });
     RepositionTextBasedControls({
+        { CtrlTextInfo::L2, IDC_SPECIFY_EACH_ITEM_GRAPH_COLOR_CHECK, CtrlTextInfo::W16 },
+        { CtrlTextInfo::L1, IDC_GRAPH_COLOR_STATIC }
+        });
+    RepositionTextBasedControls({
         { CtrlTextInfo::L4, IDC_GRAPH_DISPLAY_MODE_STATIC },
         { CtrlTextInfo::L3, IDC_CM_GRAPH_BAR_RADIO, CtrlTextInfo::W16 },
         { CtrlTextInfo::L2, IDC_CM_GRAPH_PLOT_RADIO, CtrlTextInfo::W16 }
